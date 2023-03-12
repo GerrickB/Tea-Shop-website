@@ -30,3 +30,8 @@ ul.menu {
 ul.menu li {
   text-decoration: underline;
 }
+
+#mission {
+  height: 700px;
+  background-image: url(./images/img-mission-background.jpg);
+}
