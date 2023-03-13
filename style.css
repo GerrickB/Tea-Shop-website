@@ -31,7 +31,16 @@ ul.menu li {
   text-decoration: underline;
 }
 
-#mission {
+#mission-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 700px;
   background-image: url(./images/img-mission-background.jpg);
+}
+
+#mission {
+  text-align: center;
+  flex-basis: 100%;
+  background-color: black;
 }
