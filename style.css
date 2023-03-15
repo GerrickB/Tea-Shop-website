@@ -31,6 +31,11 @@ ul.menu li {
   text-decoration: underline;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 #mission-container {
   display: flex;
   justify-content: center;
@@ -43,4 +48,31 @@ ul.menu li {
   text-align: center;
   flex-basis: 100%;
   background-color: black;
+}
+
+#tea {
+  align-self: center;
+  width: 1000px;
+}
+
+#tea-of-month {
+ text-align: center;
+}
+
+#tea-figures {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure {
+  margin: 10px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
+
+figcaption {
+  text-align: center;
 }
