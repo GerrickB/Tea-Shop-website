@@ -53,6 +53,8 @@ main {
 #tea {
   align-self: center;
   width: 1000px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #tea-of-month {
@@ -61,6 +63,7 @@ main {
 
 #tea-figures {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -75,4 +78,30 @@ img {
 
 figcaption {
   text-align: center;
+}
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(./images/img-locations-background.jpg);
+}
+
+#locations h2 {
+  color: black;
+  margin-bottom: 15px;
+}
+
+#address-container {
+  display: flex;
+}
+
+.address {
+  text-align: center;
+  background-color: black;
+  min-width: 300px;
+  flex-basis: 300px;
+  margin-left: 40px;
 }
