@@ -42,6 +42,9 @@ main {
   align-items: center;
   height: 700px;
   background-image: url(./images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #mission {
@@ -87,6 +90,9 @@ figcaption {
   align-items: center;
   height: 500px;
   background-image: url(./images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #locations h2 {
@@ -104,4 +110,20 @@ figcaption {
   min-width: 300px;
   flex-basis: 300px;
   margin-left: 40px;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+footer h5 {
+  margin-left: 20px;
+  align-self: flex-start;
 }
